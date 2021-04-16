@@ -31,13 +31,11 @@ public class App {
             printHelp();
             System.exit(0);
         }
-        String inFile;
-        String outFile;
- //       IntStream.range(0, args.length).
-        String tmp = "C:\\Users\\siavashr\\mainWorkspace\\TriangleWords\\DEFA Challenge 1\\words.txt";
+        String inFile=args[0];
+
         String jsonString=null;
         try {
-            jsonString = searchAndGroupTriangleWords(tmp);
+            jsonString = searchAndGroupTriangleWords(inFile);
         }catch (Throwable t){
             t.printStackTrace();
             System.exit(-1);//shit of shit.. what went wrong?

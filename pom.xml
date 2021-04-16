@@ -62,6 +62,9 @@
                             <mainClass>renani.com.trianglewordsfunctional.App</mainClass>
                         </manifest>
                     </archive>
+
+                    <finalName>Trianglewordsfunctional</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
 
                 <executions>
