@@ -5,4 +5,4 @@ In this project I have looked into use of records and stream for searching for w
 Example usage in Powershell:
 java -jar TriangleWordsfunctional.jar "..\words.txt" | convertFrom-Json | ConvertTo-Json
 
-Build on OpenJdk 16. 
+Build on OpenJdk 16, Maven and Jackson. Tested with Jupiter framework. 
