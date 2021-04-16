@@ -1,0 +1,9 @@
+﻿.idea
+.settings
+.classpath
+target/test-classes
+target/maven-status
+target/maven-archiver
+target/classes
+.project
+TriangleWordsFunctional.iml
